@@ -11,6 +11,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
@@ -24,4 +25,36 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+  margin-bottom: 1.5em;
+}
+
+div {
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 0 1.5em;
+  text-align: left;
+}
+
+a {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #555;
+  text-decoration: none;
+  padding: .5em .75em;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #000;
 }
