@@ -53,6 +53,7 @@ a {
   text-decoration: none;
   padding: .5em .75em;
   display: inline-block;
+  text-align: center;
 }
 
 a:hover {
@@ -70,25 +71,35 @@ a:hover {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: : 110%;
+    font-size: 110%;
     line-height: 1.4;
   }
 
-.img-flex {
+  .img-flex {
 
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 50%;
 
-}
+  }
 
-div {
+  div {
 
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 45%;
-}
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 45%;
+    padding-bottom: 0;
+  }
 
+  section {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -99,11 +110,18 @@ div {
 
   }
 
-.img-flex {
+  .img-flex {
 
-  padding-top: 2rem;
-  margin-right: 0;
+    padding-top: 2rem;
+    margin-right: 0;
 
+  }
+
+  div {
+
+    max-width: 45%;
+    padding-top: 1rem;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -113,11 +131,21 @@ div {
     line-height: 1.5;
   }
 
+  .img-flex {
 
+    max-width: 40%;
+    padding: 0;
 
-}
+  }
 
+  div {
 
+    max-width: 40%;
+    text-align: left;
+  }
 
+  section {
 
+    padding-bottom: 1rem;
+  }
 }
